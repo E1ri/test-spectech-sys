@@ -1,0 +1,20 @@
+.button {
+  padding: 0.4em;
+  width: 100%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  background-color: #f2b705;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  transition: background-color 0.25s ease;
+  cursor: pointer;
+  &:hover {
+    background-color: #f2b705cb;
+  }
+  &:active {
+    background-color: #f2b70597;
+  }
+}

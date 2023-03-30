@@ -1,0 +1,14 @@
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 3.5em 5.4375em 5.75em 5.4375em;
+  transform: translate(-50%, -50%);
+  width: 32.25em;
+  box-shadow: -10px 7px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-color: #fff;
+}
+.extra {
+  z-index: 100;
+}

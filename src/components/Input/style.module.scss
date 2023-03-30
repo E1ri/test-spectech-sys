@@ -1,0 +1,28 @@
+.label {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  color: #989898;
+}
+.focus {
+  color: #10100f;
+}
+.input {
+  margin-top: 4px;
+  padding: 6px 13px;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  color: #10100f;
+  &:focus {
+    border: 1px solid #10100f;
+    outline: none;
+  }
+}
